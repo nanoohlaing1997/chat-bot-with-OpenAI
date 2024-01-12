@@ -1,21 +1,16 @@
 {
     "name": "laravel/laravel",
     "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "description": "The skeleton application for the Laravel framework.",
+    "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
         "php": "^8.1",
         "guzzlehttp/guzzle": "^7.2",
-        "laravel/framework": "^10.8",
-        "laravel/passport": "^11.8.5",
-        "laravel/sanctum": "^3.2",
+        "laravel/framework": "^10.10",
+        "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8",
-        "league/oauth2-server": "^8.5.1",
-        "maatwebsite/excel": "^3.1",
-        "mll-lab/laravel-graphiql": "^2.0",
-        "nuwave/lighthouse": "^6.8",
-        "webonyx/graphql-php": "^15.3"
+        "openai-php/laravel": "^0.8.1"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
